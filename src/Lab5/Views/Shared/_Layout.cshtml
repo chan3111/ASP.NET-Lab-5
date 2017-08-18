@@ -1,0 +1,29 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="/css/StyleSheet.css" />
+</head>
+<body>
+    <div style="width: 1000px; margin-left: auto; margin-right: auto;">
+        <h1>Lab 5, File Uploads</h1>
+    </div>
+    <hr />
+    <div style="width: 1000px; margin-left: auto; margin-right: auto;">
+        <a asp-controller="Home" asp-action="Index">Home</a> | <a href="~/Questions.html">Questions for Lab 5</a>
+    </div>
+    <hr />
+    <div style="width: 1000px; margin-left: auto; margin-right: auto;">
+        @RenderBody()
+    </div>
+    <br />
+    <br />
+    <hr />
+    <footer style="width: 1000px; margin-left: auto; margin-right: auto; font-weight: bold;">
+        By Chandler Newman-Reed &copy; 2016
+    </footer>
+
+</body>
+</html>
